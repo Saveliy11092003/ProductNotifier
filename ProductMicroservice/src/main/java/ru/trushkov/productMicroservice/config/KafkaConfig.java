@@ -9,7 +9,7 @@ import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
-import ru.trushkov.productMicroservice.model.event.ProductCreatedEvent;
+import ru.trushkov.core.model.ProductCreatedEvent;
 
 import java.util.HashMap;
 import java.util.Map;
